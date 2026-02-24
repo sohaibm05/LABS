@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CAlab5.srcs/sources_1/new/ALU_Wrapper.v" \
+"../../../../CAlab5.srcs/sources_1/new/RegisterFile.v" \
+"../../../../CAlab5.srcs/sources_1/new/alu.v" \
+"../../../../CAlab5.srcs/sources_1/new/clock_divider.v" \
+"../../../../CAlab5.srcs/sources_1/new/debouncer.v" \
+"../../../../CAlab5.srcs/sources_1/new/seven_segment.v" \
+"../../../../CAlab5.srcs/sources_1/new/top.v" \
+"../../../../CAlab5.srcs/sources_1/new/top_rf_alu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

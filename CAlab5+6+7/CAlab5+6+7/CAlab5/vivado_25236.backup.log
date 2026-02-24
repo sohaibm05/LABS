@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Feb 24 00:51:19 2026
+# Process ID: 25236
+# Current directory: C:/Users/SOHAIB MUHAMMAD/OneDrive/Desktop/CAlab5+6+7/CAlab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12184 C:\Users\SOHAIB MUHAMMAD\OneDrive\Desktop\CAlab5+6+7\CAlab5\CAlab5.xpr
+# Log file: C:/Users/SOHAIB MUHAMMAD/OneDrive/Desktop/CAlab5+6+7/CAlab5/vivado.log
+# Journal file: C:/Users/SOHAIB MUHAMMAD/OneDrive/Desktop/CAlab5+6+7/CAlab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/SOHAIB MUHAMMAD/OneDrive/Desktop/CAlab5+6+7/CAlab5/CAlab5.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/SOHAIB MUHAMMAD/OneDrive/Desktop/CAlab5+6+7/CAlab5/CAlab5.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 24 00:53:01 2026...
+MAD/OneDrive/Desktop/CAlab5+6+7/CAlab5/CAlab5.cache/wt' already exists, is a directory, but is not writable.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 24 00:52:55 2026...

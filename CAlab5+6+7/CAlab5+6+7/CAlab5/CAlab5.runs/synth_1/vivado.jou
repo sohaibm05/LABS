@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Feb 24 13:12:01 2026
+# Process ID: 23816
+# Current directory: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/CAlab5.runs/synth_1
+# Command line: vivado.exe -log top_rf_alu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_rf_alu.tcl
+# Log file: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/CAlab5.runs/synth_1/top_rf_alu.vds
+# Journal file: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/CAlab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_rf_alu.tcl -notrace

@@ -1,0 +1,7 @@
+Running: xsim.dir/top_rf_alu_behav/xsimk.exe -simmode gui -wdb top_rf_alu_behav.wdb -simrunnum 0 -socket 63135
+Design successfully loaded
+Design Loading Memory Usage: 8956 KB (Peak: 8956 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9704 KB (Peak: 9704 KB)
+Simulation CPU Usage: 0 ms

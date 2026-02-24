@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Feb 24 14:22:11 2026
+# Process ID: 9584
+# Current directory: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21264 C:\Users\sm09751\Downloads\CAlab5+6+7\CAlab5+6+7\CAlab5\CAlab5.xpr
+# Log file: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/vivado.log
+# Journal file: C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/CAlab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/top_rf_alu_tb_behav.wcfg
+source top_rf_alu_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RegisterFile_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/top_rf_alu_tb_behav.wcfg
+source RegisterFile_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/top_rf_alu_tb_behav.wcfg
+source RegisterFile_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_rf_alu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/sm09751/Downloads/CAlab5+6+7/CAlab5+6+7/CAlab5/top_rf_alu_tb_behav.wcfg
+source top_rf_alu_tb.tcl
+remove_wave [get_waves*]
+remove_wave [get_waves *]
+add_wave /top_rf_alu_tb/uut/*
+run all
