@@ -1,0 +1,390 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 28608
+License: Customer
+
+Current time: 	Tue Apr 14 15:11:40 PKT 2026
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	D:/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dell
+User home directory: C:/Users/dell
+User working directory: C:/Users/dell/Documents/GitHub/LABS/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2020.1
+RDI_DATADIR: D:/Vivado/2020.1/data
+RDI_BINDIR: D:/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/dell/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	D:/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dell/Documents/GitHub/LABS/project_1/vivado.log
+Vivado journal file location: 	C:/Users/dell/Documents/GitHub/LABS/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/dell/Documents/GitHub/LABS/project_1/.Xil/Vivado-28608-DESKTOP-MB6FK7I
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Vivado/2020.1
+XILINX_VIVADO: D:/Vivado/2020.1
+XILINX_VIVADO_HLS: D:/Vivado/2020.1
+
+
+GUI allocated memory:	165 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,017 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\dell\Documents\GitHub\LABS\project_1\project_1.xpr. Version: Vivado v2020.1 
+// bz (cs):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 53 MB. Current time: 4/14/26, 3:11:41 PM PKT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+112767kb) [00:00:45]
+// [Engine Memory]: 1,017 MB (+914426kb) [00:00:45]
+// WARNING: HEventQueue.dispatchEvent() is taking  5838 ms.
+// Tcl Message: open_project C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/dell/Downloads/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:12 . Memory (MB): peak = 1025.520 ; gain = 0.000 
+// Project name: project_1; location: C:/Users/dell/Documents/GitHub/LABS/project_1; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 553ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // B (F, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+// Elapsed time: 20 seconds
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// [GUI Memory]: 121 MB (+5428kb) [00:02:22]
+// Elapsed time: 56 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: 'Please enter a file name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Toplevelprocessor"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new 
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "7_segment"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 98 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/7_segment.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/7_segment.v 
+// bz (cs):  Add Sources  : addNotify
+// Tcl Message: close [ open C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/Toplevelprocessor.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/Toplevelprocessor.v 
+// I (cs): Define Modules: addNotify
+dismissDialog("Add Sources"); // bz (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Modules"); // I (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, false, true); // B (F, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (F, cs)
+// PAPropertyPanels.initPanels (7_segment.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// [GUI Memory]: 134 MB (+7345kb) [00:02:57]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (F, cs) - Node
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  1035 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false); // B (F, cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 644ms to process. Increasing delay to 4000 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/7_segment.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/7_segment.v 
+dismissDialog("Remove Sources"); // bz (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: remove_files  C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/7_segment.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, 7_segment.v]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1237 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectCodeEditor("Toplevelprocessor.v", 182, 130); // bP (w, cs)
+typeControlKey((HResource) null, "Toplevelprocessor.v", 'v'); // bP (w, cs)
+selectCodeEditor("Toplevelprocessor.v", 170, 333); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, Toplevelprocessor.v]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectCodeEditor("Toplevelprocessor.v", 143, 285); // bP (w, cs)
+selectCodeEditor("Toplevelprocessor.v", 145, 251); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelProcessor (Toplevelprocessor.v)]", 2); // B (F, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (F, cs) - Node
+// [GUI Memory]: 141 MB (+356kb) [00:04:32]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Toplevelprocessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Toplevelprocessor.v]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/Toplevelprocessor.v] -no_script -reset -force -quiet 
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: remove_files  C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/Toplevelprocessor.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Remove Sources"); // bz (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelProcessor (Toplevelprocessor.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelProcessor (Toplevelprocessor.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// ad (cs): Unable to Open File: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.OpenFileAction_CANCEL, "Cancel"); // a (ad)
+dismissDialog("Unable to Open File"); // ad (cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Top"); // ac (Q, F)
+// Elapsed time: 21 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "TopLevelProcessor"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 23 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "SevenSegmentControl"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 16 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 108 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/SevenSegmentControl.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/SevenSegmentControl.v 
+// Tcl Message: close [ open C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/TopLevelProcessor.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/sources_1/new/TopLevelProcessor.v 
+// I (cs): Define Modules: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Modules"); // I (cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, false, true); // B (F, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SevenSegmentControl (SevenSegmentControl.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SevenSegmentControl (SevenSegmentControl.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, TopLevelProcessor.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, TopLevelProcessor.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("TopLevelProcessor.v", 207, 165); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelProcessor.v", 'v'); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("TopLevelProcessor.v", 200, 165); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("TopLevelProcessor.v", 178, 55); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelProcessor.v", 'v'); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 312, 264); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelProcessor.v", 235, 89); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectCodeEditor("TopLevelProcessor.v", 0, 370); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 69, 339); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 1, 332); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 2, 370); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 2, 370, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelProcessor.v", 37, 412); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 0, 367); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 0, 367, false, false, false, false, true); // bP (w, cs) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1453 ms.
+// Elapsed time: 12 seconds
+selectCodeEditor("TopLevelProcessor.v", 177, 206); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 327, 461); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 274, 436); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 269, 454); // bP (w, cs)
+selectCodeEditor("TopLevelProcessor.v", 67, 447); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelProcessor.v", 217, 105); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelProcessor.v", 231, 310); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 17, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 17, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 17, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 17, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// Tcl Command: 'file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1'
+// C (cs): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// HOptionPane Warning: 'Please enter a file name. (Create Constraints File)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+// Elapsed time: 20 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "lab"); // ac (D, C)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+dismissDialog("Create Constraints File"); // C (cs)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "lab.xdc ; <Local to Project>", 0, "lab.xdc", 0); // t (J, c)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "lab.xdc ; <Local to Project>", 0, "lab.xdc", 0, false, false, false, false, true); // t (J, c) - Double Click
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 34 seconds
+// Tcl Command: 'file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: file mkdir C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1/new/lab.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.srcs/constrs_1/new/lab.xdc 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 17); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab.xdc]", 18, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, lab.xdc]", 18, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("lab.xdc", 7, 18); // bP (w, cs)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "lab.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("lab.xdc", 166, 214); // bP (w, cs)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "lab.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("lab.xdc", 19, 108); // bP (w, cs)
+selectCodeEditor("lab.xdc", 40, 86); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("lab.xdc", 204, 196); // bP (w, cs)
