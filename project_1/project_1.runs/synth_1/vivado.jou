@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 14 15:25:41 2026
+# Process ID: 27892
+# Current directory: C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log TopLevelProcessor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelProcessor.tcl
+# Log file: C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.runs/synth_1/TopLevelProcessor.vds
+# Journal file: C:/Users/dell/Documents/GitHub/LABS/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopLevelProcessor.tcl -notrace
