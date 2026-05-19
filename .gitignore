@@ -1,0 +1,40 @@
+# Vivado generated artifacts
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+*.wdb
+*.str
+*.pb
+*.dcp
+*.bit
+*.bin
+*.bif
+*.ltx
+*.tcl.bak
+*.xpr.backup
+*.xpr.lock
+*.xil.lock
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.tmp/
+xsim.dir/
+xelab.pb
+xvlog.pb
+xvhdl.pb
+*.wcfg.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
